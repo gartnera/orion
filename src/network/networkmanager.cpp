@@ -851,7 +851,7 @@ void NetworkManager::channelBttvEmotesReply() {
 }
 
 void NetworkManager::getGlobalBttvEmotes() {
-    QString url = QString(BTTV_API) + QString("/emotes");
+    QString url = QString(BTTV_API) + QString("/emotes/global");
 
     qDebug() << "Requesting" << url;
 
